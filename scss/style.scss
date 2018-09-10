@@ -1,0 +1,77 @@
+@import "partials/variables.scss";
+@import "partials/mixins.scss";
+@import "partials/font.scss";
+@import "partials/reset.scss";
+@import "partials/global.scss";
+@import "partials/figures.scss";
+
+// Container
+.container {
+    width: $width-container-desktop;
+    margin: auto;
+    overflow: hidden;
+    	h1 {
+    		margin:{
+    				top: $margin-titulo;
+    				bottom: $margin-titulo;
+    			}
+    		font:{
+					family: "Omnes ExtraLight";
+    		}
+
+
+
+}
+
+}
+/* Lugares Grid */
+.brasil .grid {
+    display: $display;
+    width: $width;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 	  	.box {
+			    display: $display;
+			    height: 250px;
+			    padding: 1px;
+
+			    @include border-radius(10px)
+			    background: {
+			    	position: center;
+			    	clip: content-box;
+			   		size: cover;
+
+			    }
+			    flex-basis: 33%;
+}
+}
+.brasil .box .info {
+    width: $width/2;
+    margin-bottom: $margin-box + 5px;
+
+    color: #fff;
+    align-self: flex-end;
+    .titulo-small {
+        margin-bottom: $margin-box - 5px;
+
+        font-size: 11px/16px + rem;
+
+        text-transform: uppercase;
+    }
+    .titulo-big {
+        font-weight: 300;
+    }
+    .titulo-small-apartir {
+        margin-bottom: $margin-box - 5px;
+
+        font-size: 11px/16px + rem;
+    }
+    .titulo-price {
+        font-family: "Omnes ExtraLight";
+        font-size: 20px/16px + rem;
+
+}
+}
+@import "partials/mediaqueries.scss";

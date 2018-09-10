@@ -1,0 +1,15 @@
+/* Omnes Font */
+@font-face {
+    font-family: "Omnes Medium";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("Omnes Medium"), url("../font/omnes_medium-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Omnes ExtraLight";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("Omnes Medium"), url("../font/omnes_extralight-webfont.woff") format("woff");
+}

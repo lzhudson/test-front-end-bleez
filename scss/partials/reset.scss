@@ -1,0 +1,11 @@
+// Reset CSS
+* {
+    padding: $margin;
+    margin: $padding;
+    @include box-sizing(border-box)
+	     font: {
+			      family: "Omnes Medium", sans-serif;
+    	      size: $width;
+	         }
+
+}
